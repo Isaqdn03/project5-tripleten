@@ -1,12 +1,9 @@
-
 import streamlit as st
 import pandas as pd
 import plotly_express as px
 
-car_data = pd.read_csv(r'D:\My Github Repos\project5-tripleten\vehicles.csv')
-
 # lendo os dados
-car_data = pd.read_csv('vehicles_us.csv')
+car_data = pd.read_csv(r'D:\My Github Repos\project5-tripleten\vehicles.csv')
 
 # botão para o histograma
 hist_button = st.button('Criar histograma')
